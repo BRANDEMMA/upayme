@@ -1,0 +1,9 @@
+.alert.alert-success.alert-with-icon i
+{
+	margin-right: 10px;
+}
+.alert.alert-success.alert-with-icon 
+{
+    align-content: center;
+    font-size: 18px;
+}
