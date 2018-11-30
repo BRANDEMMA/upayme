@@ -1,6 +1,19 @@
-.alert.alert-success.alert-with-icon i
+.alert.alert-warning.alert-with-icon
 {
-	margin-right: 10px;
+    align-content: center;
+    font-size: 18px;
+}
+.alert.alert-warning.alert-with-icon i
+{
+    margin-right: 10px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+.alert.alert-success.alert-with-icon i 
+{
+    margin-right: 10px;
+    font-size: 30px;
+    vertical-align: middle;
 }
 .alert.alert-success.alert-with-icon 
 {
