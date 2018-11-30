@@ -20,3 +20,11 @@
     align-content: center;
     font-size: 18px;
 }
+.col-lg-6.col-md-6.notificaciones {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-lg-6.col-md-6.notificaciones div {
+    width: 50%;
+    margin: 0 auto;
+}
