@@ -1,7 +1,15 @@
+span.badge.badge-warning.soli {
+    width: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 20px;
+}
 div.solicitudes button
 {
 	width: 100%;
 	text-align: right;
+	font-size: 18px;
 }
 div.solicitudes button i
 {
