@@ -1,3 +1,74 @@
+.hvr-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active
+{
+	    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+div.panel.panel2 .col-lg-12.otrito
+ {
+    text-align: center;
+    margin: 0 auto;
+}
+div.panel.panel2 .col-lg-12.otrito img {
+    width: 80px;
+    text-align: center;
+    margin: 0 auto;
+}
+div.panel.panel2 .col-lg-9:first-child {
+    border-right: 2px solid;
+}
+.panel2 .col-lg-12 .col-lg-4
+{
+	float: left;
+}
+.panel2 .col-lg-12 {
+    float: left;
+}
+.aparece
+{
+	display: block;
+}
+.desaparece
+{
+	display: none;
+}
+.panel.panel2 {
+    overflow: visible;
+    max-height: 100%;
+}
+.panel.panel2 .col-lg-9 img {
+    width: 60px;
+}
+div.panel.panel2 .col-lg-3 {
+    float: left;
+    padding: 0;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.panel.panel2 .col-lg-6 {
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+        margin-bottom: 20px;
+}
+div.panel.panel2 .col-lg-9 {
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+}
 div.mis-tarjetas button.active
 {
 	border-radius: 0 !important;
