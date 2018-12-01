@@ -1,3 +1,29 @@
+div.mis-tarjetas button.active
+{
+	border-radius: 0 !important;
+}
+div.mis-tarjetas .accordion:hover
+{
+	border-radius: 0 !important;
+}
+.col-lg-1.flechita {
+    text-align: right;
+}
+.col-lg-1.flechita i.fas.fa-caret-down {
+    float: none !important;
+    margin-top: 15px;
+}
+button.accordion.botoncito .col-lg-5 {
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 15px;
+}
+div.mis-tarjetas button.accordion.botoncito
+{
+	padding:0;
+	border-radius: 0;
+}
 button.accordion.botoncito .col-lg-1 {
     padding: 0;
     margin: 0;
