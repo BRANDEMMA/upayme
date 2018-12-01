@@ -1,3 +1,28 @@
+.envio-dinero h1
+{
+	text-align: center;
+}
+.boton-buscar.col-lg-2 {
+    float: left;
+        padding-top: 25px;
+}
+div.flotante
+{
+	float: left;
+}
+.col-lg-6.form-check.diferente {
+    padding-top: 1.5% !important;
+}
+.boton-detalles {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+.clearfix
+{
+	clear: both;
+}
 .alert.alert-warning.alert-with-icon
 {
     align-content: center;
@@ -27,4 +52,88 @@
 .col-lg-6.col-md-6.notificaciones div {
     width: 50%;
     margin: 0 auto;
+}
+.col-lg-6.col-md-6.seguridad {
+    max-width: 100%;
+}
+span.subtitle {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.col-lg-6.col-md-6.col-details {
+    flex: 0 0 100%;
+    max-width: 100% !important;
+}
+.info-derecha {
+    width: 50%;
+    float: left;
+    min-width: 320px;
+}
+.info-derecha select {
+    width: 90%;
+}
+.info-derecha form
+{
+	margin-bottom: 10px;
+}
+div.info-derecha input{
+    width: 90%;
+    margin-bottom: 10px;
+}
+.info-izquierda {
+    width: 50%;
+    float: left;
+    min-width: 320px;
+}
+.info-izquierda input {
+    width: 90%;
+    margin-bottom: 10px;
+}
+.info-derecha select {
+    width: 90%;
+    margin: 0.3% 0;
+}
+.form-check.diferente {
+    vertical-align: middle;
+    padding: 5px 0;
+    margin-top: 40px;
+    font-size: 18px;
+    width: 90%;
+}
+.boton-enviar {
+    text-align: center;
+    margin: 0 auto;
+}
+option {
+    background: #171941;
+    color: white;
+}
+form.selecionar-moneda{
+    width: 45%;
+}
+form.selecionar-moneda {
+    width: 45%;
+    margin-bottom: 2%;
+}
+.col-sm-12.form-cambio
+{
+	padding:0;
+}
+.col-sm-12.form-cambio .col-lg-6
+{
+	padding:0 20px;
+	float: left;
+	margin: 0 auto;
+	height: 80px;
+}
+@media (max-width: 768px)
+{
+	.info-derecha 
+	{
+    width: 100%;
+	}
+	.info-izquierda
+	{
+    width: 100%;
+	}
 }
