@@ -133,7 +133,45 @@
               <button class="btn btn-link btn-info asociar"><i class="fas fa-plus"></i>Asociar Tarjeta</button>
               <div class="mis-tarjetas">
 
-            <button class="accordion botoncito"><i class="fab fa-bitcoin"></i>Criptomonedas<i class="fas fa-caret-down"></i></button>
+            <button class="accordion botoncito">
+              <div class="col-lg-1">
+                <img src="imagenes/visa.png">
+              </div>
+              <i class="fas fa-caret-down"></i>
+            </button>
+
+            <div class="panel">
+  <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" checked="">
+                  <span class="form-check-sign"></span>
+                  USD
+                </label>
+              </div>
+               <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" checked="">
+                  <span class="form-check-sign"></span>
+                  USD
+                </label>
+              </div>
+               <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" checked="">
+                  <span class="form-check-sign"></span>
+                  USD
+                </label>
+              </div>
+               <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" checked="">
+                  <span class="form-check-sign"></span>
+                  USD
+                </label>
+              </div>
+
+
+</div>
 
               </div>
             </div>
@@ -215,6 +253,22 @@
   <script type="text/javascript">
     
   </script>
+  <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </body>
 
 </html>
