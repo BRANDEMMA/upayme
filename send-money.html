@@ -124,9 +124,219 @@
             <h5 class="text-on-back">Envio</h5>
 
 
-            <div class="envio-dinero">
+            <div class="envio-dinero-1">
               <h1>¿A quién deseas enviar?</h1>
+              <a class="elemento-envio-dinero" href="#">
+                <div class="col-lg-4">
+                  <h3>Usuario IUPay me</h3>
+                  <div class="iconitos">
+                    <i class="fas fa-user"></i>
+                  </div>
+                </div>
+              </a>
+              <a class="elemento-envio-dinero" href="#">
+                <div class="col-lg-4">
+                  <h3>Usuario no registrado</h3>
+                  <div class="iconitos">
+                    <i class="fas fa-user-plus"></i>
+                  </div>
+                </div>
+              </a>
+              <a class="elemento-envio-dinero" href="#">
+                <div class="col-lg-4">
+                  <h3>A tu billetera</h3>
+                  <div class="iconitos">
+                    <i class="fas fa-money-bill-wave"></i>
+                  </div>
+                </div>
+              </a>
+              <div class="clearfix"></div>
             </div>
+
+            <div class="envio-dinero-1">
+              <h1>¿Quien recibe?</h1>
+              <a href="#">
+                <div class="col-lg-1 izquierdita">
+                  <i class="fas fa-angle-left"></i>
+                </div>
+              </a>                
+              <div class="col-lg-10">
+                <div class="iconitos">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="form-group">
+                  <input type="email" value="" placeholder="Correo electrónico" class="form-control">
+                </div>
+              </div>
+              <a href="#">
+              <div class="col-lg-1 derechita">
+                <i class="fas fa-angle-right"></i>
+              </div>
+              </a>
+              <div class="clearfix"></div>
+            </div>
+
+            <div class="envio-dinero-1">
+              <h1>¿Quien recibe?</h1>
+              <a href="#">
+                <div class="col-lg-1 izquierdita">
+                  <i class="fas fa-angle-left"></i>
+                  <div class="clearfix"></div>
+                </div>
+              </a> 
+              <a class="elemento-envio-dinero" href="#">              
+                <div class="col-lg-5">
+                  <h3>Persona</h3>
+                  <div class="iconitos">
+                    <i class="fas fa-user"></i>
+                  </div>
+                </div>
+               </a> 
+              <a class="elemento-envio-dinero" href="#">
+              <div class="col-lg-5">
+                  <h3>Empresa</h3>
+                  <div class="iconitos">
+                    <i class="fas fa-briefcase"></i>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+              <div class="col-lg-1 derechita">
+                <i class="fas fa-angle-right"></i>
+                <div class="clearfix"></div>
+              </div>
+              </a>
+              <div class="clearfix"></div>
+            </div>
+
+            <div class="envio-dinero-1">
+              <h1>Usuario no registrado</h1>
+              <a href="#">
+                <div class="col-lg-1 izquierdita">
+                  <i class="fas fa-angle-left"></i>
+                  <div class="clearfix"></div>
+                </div>
+              </a> 
+
+              <a class="elemento-envio-dinero">              
+                <div class="col-lg-5">
+                  <h3>Datos Personales</h3>
+
+                  <form class="formeeh" method="get" action="#">
+                    <input type="text" class="form-control" placeholder="Nombres">
+                    <input type="text" class="form-control" placeholder="Apellidos">
+                    <input type="text" class="form-control" placeholder="Teléfono">
+                    <input type="email" class="form-control" placeholder="Correo Electrónico">
+                    <select name="ad" onchange="crearlink(this.form)" class="form-control">
+                      <option value="">País</option>
+                      <option value="Peru">Peru</option>
+                      <option value="Venezuela">Venezuela</option> 
+                    </select>
+                  </form>
+
+                </div>
+               </a>
+
+               <a class="elemento-envio-dinero">              
+                <div class="col-lg-5">
+                  <h3>Datos Bancarios</h3>
+
+                  <form class="formeeh" method="get" action="#">
+                    
+                    <select name="ad" onchange="crearlink(this.form)" class="form-control">
+                      <option value="">Tipo de Documento</option>
+                      <option value="Peru">DNI</option>
+                      <option value="Venezuela">RUC</option> 
+                    </select>
+                    <input type="text" class="form-control" placeholder="Domicilio">
+                    <input type="text" class="form-control" placeholder="Población">
+                    <select name="ad" onchange="crearlink(this.form)" class="form-control">
+                      <option value="">Banco</option>
+                      <option value="Peru">ScotiaBank</option>
+                      <option value="Venezuela">BBVA</option> 
+                    </select>
+                    <select name="ad" onchange="crearlink(this.form)" class="form-control">
+                      <option value="">Tipo de Cuenta</option>
+                      <option value="Peru">Corriente</option>
+                      <option value="Venezuela">Ahorro</option> 
+                    </select>
+                    
+                  </form>
+
+                </div>
+               </a> 
+
+              <a href="#">
+              <div class="col-lg-1 derechita">
+                <i class="fas fa-angle-right"></i>
+                <div class="clearfix"></div>
+              </div>
+              </a>
+              <div class="clearfix"></div>
+            </div>
+
+            <div class="envio-dinero-1">
+              <h1>Usuario no registrado</h1>
+              <a href="#">
+                <div class="col-lg-1 izquierdita">
+                  <i class="fas fa-angle-left"></i>
+                  <div class="clearfix"></div>
+                </div>
+              </a> 
+
+              <a class="elemento-envio-dinero">              
+                <div class="col-lg-5">
+                  <h3>Empresa</h3>
+
+                  <form class="formeeh" method="get" action="#">
+                    <input type="text" class="form-control" placeholder="Nombre de la empresa">
+                    <input type="text" class="form-control" placeholder="Número telefónico">
+                    <input type="email" class="form-control" placeholder="Correo Electrónico">                    
+                    <select name="ad" onchange="crearlink(this.form)" class="form-control">
+                      <option value="">País</option>
+                      <option value="Peru">Peru</option>
+                      <option value="Venezuela">Venezuela</option> 
+                    </select>
+                  </form>
+
+                </div>
+               </a>
+
+               <a class="elemento-envio-dinero">              
+                <div class="col-lg-5">
+                  <h3>Datos Bancarios</h3>
+
+                  <form class="formeeh" method="get" action="#">
+                    
+  
+                    <input type="text" class="form-control" placeholder="Dirección">
+                    <input type="text" class="form-control" placeholder="RUC">
+                    <select name="ad" onchange="crearlink(this.form)" class="form-control">
+                      <option value="">Banco</option>
+                      <option value="Peru">ScotiaBank</option>
+                      <option value="Venezuela">BBVA</option> 
+                    </select>
+                    <input type="text" class="form-control" placeholder="Código interbancario">
+                    <select name="ad" onchange="crearlink(this.form)" class="form-control">
+                      <option value="">Tipo de Cuenta</option>
+                      <option value="Peru">Corriente</option>
+                      <option value="Venezuela">Ahorro</option> 
+                    </select>
+                    
+                  </form>
+
+                </div>
+               </a> 
+
+              <a href="#">
+              <div class="col-lg-1 derechita">
+                <i class="fas fa-angle-right"></i>
+                <div class="clearfix"></div>
+              </div>
+              </a>
+              <div class="clearfix"></div>
+            </div>
+
 
 
           </div>

@@ -1,4 +1,87 @@
-.envio-dinero h1
+a.elemento-envio-dinero div:first-child {
+    height: 380px;
+}
+a.elemento-envio-dinero form.formeeh select
+{
+	margin-bottom: 12px;
+}
+a.elemento-envio-dinero form.formeeh {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.envio-dinero-1 .col-lg-5
+{
+	float: left;
+	text-align: center;
+    margin: 0 auto;
+}
+.envio-dinero-1 a
+{
+	color: white;
+}
+.envio-dinero-1 a:hover
+{
+	color: white;
+}
+.envio-dinero-1 .col-lg-1.izquierdita {
+    float: left;
+    text-align: center;
+    font-size: 80px;
+ }
+.envio-dinero-1 .col-lg-1.derechita {
+    float: right;
+    text-align: center;
+    font-size: 80px;
+}
+.col-lg-10 .form-control {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.envio-dinero-1 .col-lg-10
+
+{
+	text-align: center;
+	margin: 0 auto;
+	float: left;
+}
+.envio-dinero-1 {
+    margin-bottom: 50px;
+}
+a.elemento-envio-dinero
+{
+	color: white;
+}
+a.elemento-envio-dinero:hover
+{
+	color: white;
+}
+a.elemento-envio-dinero:hover>div{
+	background: rgba(0,0,0,0.2);
+}
+a.elemento-envio-dinero div:first-child
+{
+	border-radius: 10px;
+	padding: 20px 0;
+}
+.iconitos {
+    text-align: center;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    vertical-align: middle;
+    font-size: 40px;
+    padding: 42px 0;
+    background: #ff7713;
+}
+.envio-dinero-1 .col-lg-4
+{
+	float: left;
+	text-align: center;
+}
+.envio-dinero-1 h1
 {
 	text-align: center;
 }
