@@ -12,6 +12,21 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
  */
+
+
+ .ir-arriba {
+ 	display:none;
+ 	padding:20px;
+ 	background:#024959;
+ 	font-size:20px;
+ 	color:#fff;
+ 	cursor:pointer;
+ 	position: fixed;
+ 	bottom:20px;
+ 	right:20px;
+ }
+
+
 i.far .fa-file-alt{
   margin: 0 auto 0 0;
       display: block;
@@ -452,6 +467,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
+  height: auto;
   -webkit-tap-highlight-color: rgba(34, 42, 66, 0);
 }
 
@@ -4892,9 +4908,9 @@ input[type="button"].btn-block {
     padding-left: 0;
   }
 }
-
+/*
 @media (min-width: 768px) {
-  .navbar-expand-md {
+  /*.navbar-expand-md {
     flex-flow: row nowrap;
     justify-content: flex-start;
   }
@@ -4920,7 +4936,7 @@ input[type="button"].btn-block {
     display: none;
   }
 }
-
+*/
 @media (max-width: 991.98px) {
   .navbar-expand-lg>.container,
   .navbar-expand-lg>.container-fluid {
@@ -8126,7 +8142,7 @@ button.bg-darker:focus {
 }
 
 .fixed-top {
-  position: fixed;
+
   top: 0;
   right: 0;
   left: 0;
@@ -14130,11 +14146,11 @@ img {
 .navbar {
   padding: 0.9375rem;
   width: 100%;
-  z-index: 1050;
+  z-index: 1050;/*
   background-image: linear-gradient(to bottom left, #420451, #C806F7, #420451) !important;
   background-image: -webkit-linear-gradient(to bottom left, #420451, #C806F7, #420451) !important;
   background-image: -o-linear-gradient(to bottom left, #420451, #C806F7, #420451) !important;
-  background-image: -moz-linear-gradient(to bottom left, #420451, #C806F7, #420451) !important;
+  background-image: -moz-linear-gradient(to bottom left, #420451, #C806F7, #420451) !important;*/
 }
 
 .navbar .photo {

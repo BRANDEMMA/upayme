@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="es">
 
 <head>
@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+
   <title>
     IUPay Me
   </title>
@@ -26,6 +27,9 @@
 </head>
 
 <body class="profile-page profile-2 bank-details">
+
+<span class="ir-arriba icon-arrow-up2"></span>
+
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="100">
     <div class="container">
@@ -71,54 +75,54 @@
 <li class="dropdown nav-item">
 
   <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-    <i class="fas fa-th"></i> Menu
+    <i class="fas fa-th" style="color:white"></i> Menu
   </a>
 
             <div  class="dropdown-menu dropdown-with-icons ">
-                <div  class="botones-eeh">
+                <div id="animados"  class="botones-eeh ">
               <a href="https://demos.creative-tim.com/blk-design-system/docs/1.0/getting-started/overview.html" class="dropdown-item">
                 <i class="tim-icons icon-single-02"></i> Perfil
               </a>  </div>
-                <div  class="botones-eeh">
+                <div  class="botones-eeh animated flip ">
               <a href="examples/register-page.html" class="dropdown-item">
                 <i class="tim-icons icon-lock-circle"></i>Seguridad
               </a> </div>
-                <div  class="botones-eeh">
+                <div id="animados" class="botones-eeh ">
               <a href="examples/landing-page.html" class="dropdown-item">
                 <i class="tim-icons icon-wallet-43"></i>Billetera
               </a></div>
-                <div  class="botones-eeh">
-              <div  class="dropdown-item"><span class="eeh-desa"><i class="tim-icons icon-money-coins"></i>Envío de Dinero</span>
+                <div  class="botones-eeh ">
+              <div  class=" dropdown-item"><span class="eeh-desa"><i class="tim-icons icon-money-coins"></i>Envío de Dinero</span>
 
                 <a href="google" class="links-boton1"  > Primero</a>
                 <a href="cold" class="links-boton"  > Segundo</a>
                 <a href="Emma" class="links-boton"  > Tercero</a>
               </div></div>
-                <div  class="botones-eeh">
+                <div  class="botones-eeh ">
               <a href="examples/register-page.html" class="dropdown-item">
                 <i class="eehtama fas fa-file-invoice-dollar"></i>Solicitud de Pago
               </a></div>
-                <div  class="botones-eeh">
+                <div  class="botones-eeh ">
               <a href="examples/landing-page.html" class="dropdown-item">
               <i class="eehtama fas fa-file-alt"></i>Pagos Pendientes
               </a></div>
-                <div  class="botones-eeh">
+                <div  class="botones-eeh ">
               <a href="examples/profile-page.html" class="dropdown-item">
               <i class="eehtama far fa-credit-card"></i>Mis Tarjetas
               </a></div>
-                <div  class="botones-eeh">
+                <div  class="botones-eeh ">
               <a href="https://demos.creative-tim.com/blk-design-system/docs/1.0/getting-started/overview.html" class="dropdown-item">
                 <i class="eehtama fas fa-university"></i>Verificación de Deposito
               </a></div>
-                <div  class="botones-eeh">
+                <div  class="botones-eeh ">
               <a href="examples/register-page.html" class="dropdown-item">
                 <i class="tim-icons icon-bullet-list-67"></i>Historial de Retiro
               </a></div>
-                <div  class="botones-eeh">
-              <a href="examples/landing-page.html" class="dropdown-item">
+                <div  class="botones-eeh ">
+              <a href="examples/landing-page.html" class="dropdown-item ">
                 <i class="eehtama fas fa-headset"></i>Soporte y Reclamos
               </a></div>
-                <div  class="botones-eeh">
+                <div  class="botones-eeh ">
               <a href="examples/profile-page.html" class="dropdown-item">
               <i class="eehtama fas fa-sign-out-alt"></i>Cerrar Sesión
               </a></div>
@@ -321,6 +325,29 @@ $(".boton01").click(function CambiarEstilo() {
 
 
   </script>
+
+
+
+  <script>
+  	var contador = 1;
+
+  	function cambiarClase(){
+  		if (contador == 1) {
+  			document.getElementById('elemento').className = 'animated bounceInUp';
+  			contador = 2;
+  		} else {
+  			document.getElementById('elemento').className = '';
+  			contador = 1;
+  		}
+  	}
+
+  	document.getElementById('accion').onclick = cambiarClase;
+
+  </script>
+
+
+
+
 </body>
 
 </html>
